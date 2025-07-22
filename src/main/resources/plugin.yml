@@ -1,0 +1,4 @@
+name: Celeste
+version: '1.0-SNAPSHOT'
+main: com.frozen.celeste.Celeste
+api-version: '1.21'
