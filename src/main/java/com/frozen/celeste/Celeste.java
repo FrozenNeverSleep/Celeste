@@ -8,6 +8,7 @@ public final class Celeste extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getServer().getPluginManager().registerEvents(new DashListener(), this);
+        getServer().getPluginManager().registerEvents(new WallJumpListener(), this);
     }
 
     @Override
